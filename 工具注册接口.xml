@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface>
+    <assemblys>
+        <assembly>
+            <assembly-id>1</assembly-id>
+            <assembly-name>sum_api</assembly-name>
+            <assembly-desc>求两个数字相加的结果</assembly-desc>
+            <assembly-source assembly-type="git">https://github.com/your_repo/sum.git</assembly-source>
+            <assembly-path>/sum</assembly-path>
+            <assembly-port>60002</assembly-port>
+            <assembly-language>python</assembly-language>
+            <assembly-version>3.9</assembly-version>
+            <input-params>
+                <input-param param-type="array">
+                    <param-name>numbers</param-name>
+                    <param-desc>数组列表</param-desc>
+                </input-param>
+            </input-params>
+            <output-params>
+                <output-param param-type="int">
+                    <param-name>sum</param-name>
+                    <param-desc>和数</param-desc>
+                </output-param>
+            </output-params>
+        </assembly>
+    </assemblys>
+</interface>
